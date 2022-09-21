@@ -1,0 +1,104 @@
+.main-grid {
+    display: grid;
+    /* grid-template-columns: repeat(3, 300px);
+    grid-template-rows: auto auto; */
+    row-gap: 35px;
+    grid-template-areas:
+        'a b c d'
+        'e f g h'
+    ;
+    max-width: 1160px;
+    column-gap: 35px;
+    justify-content: center;
+    margin:  85px auto 128px auto;
+   
+
+
+}
+
+.main-grid .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.main-grid .item p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    color:  #203E38   
+}
+
+
+.main-grid h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    color:#203E38
+
+}
+/* 
+.main-grid h2::after{
+content: "By admin    |    2 comment";
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+
+
+
+} */
+
+.main-grid img {
+    width: 263px;
+    height: 208px;
+
+
+}
+
+.orange-container {
+    position: absolute;
+    background-color: #203E38;
+    top: 0px;
+
+
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    gap:10px;
+
+
+    flex-direction: column;
+    right: 0px;
+    padding: 13px 18px
+}
+
+/* .orange-container h1 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.orange-container h3 {
+    font-size: 13px;
+    margin-right: 20px;
+} */
+
+.main-grid :hover .orange-container
+
+ {
+    background-color:   #18CFAB;
+   
+}
+
+.main-grid :hover h2
+
+ {
+    color:#18CFAB
+   
+}
+

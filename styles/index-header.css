@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-image: url('../stepProjHam/sectionsBackground/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1012px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid white;
+  
+    
+}
+
+.navbar,
+.central-menu {
+    display: flex;
+}
+
+
+.navbar {
+    justify-content: space-around;
+    background-color: rgba(94, 93, 88, 0.6);
+    z-index: 999;
+
+    /* align-items: center; */
+    position: fixed;
+    width: 100%;
+}
+
+.central-menu {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    gap: 21px;
+    /* max-width: 1160px; */
+
+}
+
+/* .central-menu {
+padding-top: 30px;
+    
+} */
+
+/* .central-menu li:hover{
+    color:#18CFAB;
+    border-bottom: 2px solid #18CFAB;
+ 
+
+} */
+
+.central-menu div:hover{
+    color:#18CFAB;
+    border-bottom: 2px solid #18CFAB;
+    fill: #fff;
+}
+
+
+
+.central-menu div{
+    display: flex;
+    align-content: center;
+    align-items: center
+}
+
+.text-header-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 300px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.text-header-top {
+
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.text-header-top p {
+
+    display: inline;
+    color: #18CFAB;
+}
+
+.text-header-middle {
+
+    font-weight: 700;
+    font-size: 78px;
+}
+
+.text-header-bottom {
+
+    font-weight: 400;
+    font-size: 34px;
+    margin-bottom: 134px;
+}
+
+.btn{
+    /* margin-top: 134px; */
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+
+.btn button {
+    background: #18CFAB;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 170px;
+    height: 55px;
+    border: none;
+    border-radius: 5%;
+    color: #FFFFFF;
+    border-top: 5px solid #FFFFFF;
+
+}
+
+.btn .button-right-blue {
+
+    background:#00CBF6;
+}
+
+
+.swiper-button-next{
+    
+}
+
