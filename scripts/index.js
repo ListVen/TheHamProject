@@ -39,7 +39,7 @@ const showSelectedPhoto = (folder, numb) => {
   container.innerHTML = ""
   for (let i = 0; i < numb; ++i) {
 
-    container.insertAdjacentHTML("beforeend", `<img src="../StepProject/stepProjHam/${folder}/${folder}${i}.jpg" alt="">`)
+    container.insertAdjacentHTML("beforeend", `<img src="../TheHamProject/stepProjHam/${folder}/${folder}${i}.jpg" alt="">`)
   }
 }
 
